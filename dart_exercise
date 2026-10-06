@@ -1,0 +1,17 @@
+void main() {
+  String studentName = 'Pablo Escobar';
+  int numberOfSubjects = 5;
+  double averageGrade = 88.50;
+  bool passed = averageGrade >= 75;
+
+  double totalGradePoints = averageGrade * numberOfSubjects;
+  double remaining = averageGrade % 1;
+
+  print('Student Name: $studentName');
+  print('Number of Subjects: $numberOfSubjects');
+  print('Average Grade: $averageGrade');
+  print('Total Grade Points: $totalGradePoints');
+  print('Decimal Remainder: $remaining');
+  print('Did the student pass? $passed');
+  print('Is the average grade greater than 90? ${averageGrade > 90}');
+}
